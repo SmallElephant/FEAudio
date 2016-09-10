@@ -14,7 +14,6 @@
 		A80172BF1D76E5D000E532F5 /* test.caf in Resources */ = {isa = PBXBuildFile; fileRef = A80172BE1D76E57A00E532F5 /* test.caf */; };
 		A80172C01D76E5D000E532F5 /* audio.caf in Resources */ = {isa = PBXBuildFile; fileRef = A80172BD1D76E2CB00E532F5 /* audio.caf */; };
 		A80172C21D76EFC700E532F5 /* 1472640961.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80172C11D76EFC700E532F5 /* 1472640961.wav */; };
-		A80FA71D1D7873A0006796DC /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80FA71C1D7873A0006796DC /* test.wav */; };
 		A830C3F51D71235400A69B58 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = A830C3D31D71235400A69B58 /* EZAudio.m */; };
 		A830C3F61D71235400A69B58 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A830C3D51D71235400A69B58 /* EZAudioDevice.m */; };
 		A830C3F71D71235400A69B58 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A830C3D71D71235400A69B58 /* EZAudioDisplayLink.m */; };
@@ -81,7 +80,6 @@
 		A80172BD1D76E2CB00E532F5 /* audio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio.caf; sourceTree = "<group>"; };
 		A80172BE1D76E57A00E532F5 /* test.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.caf; sourceTree = "<group>"; };
 		A80172C11D76EFC700E532F5 /* 1472640961.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1472640961.wav; sourceTree = "<group>"; };
-		A80FA71C1D7873A0006796DC /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
 		A830C3D21D71235400A69B58 /* EZAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudio.h; sourceTree = "<group>"; };
 		A830C3D31D71235400A69B58 /* EZAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudio.m; sourceTree = "<group>"; };
 		A830C3D41D71235400A69B58 /* EZAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDevice.h; sourceTree = "<group>"; };
@@ -262,7 +260,6 @@
 				A8DB4F221D8029D9001EC97E /* Common */,
 				A8DB4F171D8023EB001EC97E /* listen.wav */,
 				A8EF0DB21D7ACD2800C55D48 /* listen.caf */,
-				A80FA71C1D7873A0006796DC /* test.wav */,
 				A830C3D11D7122B400A69B58 /* Third */,
 				A833C6361D5B2B720038835A /* Resources */,
 				A833C6321D5B23280038835A /* AmazingAudio */,
@@ -473,7 +470,6 @@
 				A8EDC4061D83A42000D11B37 /* MyWay.mp3 in Resources */,
 				A833C60C1D5B1F070038835A /* Assets.xcassets in Resources */,
 				A833C60A1D5B1F070038835A /* Main.storyboard in Resources */,
-				A80FA71D1D7873A0006796DC /* test.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
