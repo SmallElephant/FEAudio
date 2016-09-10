@@ -12,6 +12,7 @@
 #import "EZViewController.h"
 #import "AudioUnitViewController.h"
 #import "AudioTestViewController.h"
+#import "AudioComposeController.h"
 
 @interface MainViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -75,13 +76,15 @@
         AudioUnitViewController *unitController = [AudioUnitViewController auFromStoryBoard];
         [self.navigationController pushViewController:unitController animated:YES];
     } else if (indexPath.row == 3) {
-//        AudioTestViewController *testController = [AudioTestViewController auFromStoryBoard];
-//        [self.navigationController pushViewController:testController animated:YES];
+
         NSString *path = [[NSBundle mainBundle] pathForResource:@"1473173586" ofType:@"wav"];
 //        NSURL *fileUrl =[NSURL fileURLWithPath:path];
         NSURL *itemPathURL = [NSURL fileURLWithPath:path];
         CGFloat duration = [self audioSoundDuration:itemPathURL];
         NSLog(@"Record的时长:%f",duration);
+    } else if (indexPath.row == 4) {
+        AudioComposeController *controller = [AudioComposeController auFromStoryBoard];
+        [self.navigationController pushViewController:controller animated:YES];
     }
 }
 
@@ -90,7 +93,7 @@
 
 - (void)setup{
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.dataArray = @[@"AEAudio",@"EZAudio",@"AudioUnit",@"AudioTest"];
+    self.dataArray = @[@"AEAudio",@"EZAudio",@"AudioUnit",@"AudioTest",@"AudioCompose"];
 }
 
 - (BOOL)isHeadSetPlugging {
@@ -108,50 +111,6 @@
     CMTime audioDuration = audioAsset.duration;
     float audioDurationSeconds = CMTimeGetSeconds(audioDuration);
     return audioDurationSeconds;
-    
-    
-//    AVAsset *asset = [AVAsset assetWithURL:fileUrl];
-//    NSArray *keys = @[@"tracks",
-//                      @"playable",
-//                      @"duration"];
-//    
-//    __weak typeof(asset) weakAsset = asset;
-//    __weak typeof(self) weakSelf = self;
-//    [asset loadValuesAsynchronouslyForKeys:keys completionHandler:^{
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            // check the keys
-//            for (NSString *key in keys) {
-//                NSError *error = nil;
-//                AVKeyValueStatus keyStatus = [weakAsset statusOfValueForKey:key error:&error];
-//                
-//                switch (keyStatus) {
-//                    case AVKeyValueStatusFailed:{
-//                        // failed
-//                            NSLog(@"音频时间:%f",weakAsset.duration);
-//                        break;
-//                    }
-//                    case AVKeyValueStatusLoaded:{
-//                        // success
-//                        NSLog(@"音频时间:%f",weakAsset.duration);
-//                        break;
-//                    }case AVKeyValueStatusCancelled:{
-//                        // cancelled
-//                            NSLog(@"音频时间:%f",weakAsset.duration);
-//                        break;
-//                    }
-//                    default:
-//                        break;
-//                }
-//            }
-//            
-//            // check playable
-//            if (!weakAsset.playable) { // 不能播放
-//                return;
-//            }
-//            
-//        });
-//    }];
-//    return 0;
 }
 
 @end

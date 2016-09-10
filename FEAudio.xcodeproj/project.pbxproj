@@ -43,26 +43,13 @@
 		A833C61A1D5B1F070038835A /* FEAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A833C6191D5B1F070038835A /* FEAudioTests.m */; };
 		A833C6251D5B1F070038835A /* FEAudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A833C6241D5B1F070038835A /* FEAudioUITests.m */; };
 		A833C6351D5B23420038835A /* CustomAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A833C6341D5B23420038835A /* CustomAudioViewController.m */; };
-		A833C6471D5B2BAC0038835A /* 灿烂过.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A833C6371D5B2BAC0038835A /* 灿烂过.m4a */; };
-		A833C6481D5B2BAC0038835A /* 菊次郎的夏天-K.Williams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6381D5B2BAC0038835A /* 菊次郎的夏天-K.Williams.mp3 */; };
-		A833C6491D5B2BAC0038835A /* bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6391D5B2BAC0038835A /* bubble.mp3 */; };
-		A833C64A1D5B2BAC0038835A /* comical boys-虹音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C63A1D5B2BAC0038835A /* comical boys-虹音.mp3 */; };
-		A833C64B1D5B2BAC0038835A /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = A833C63B1D5B2BAC0038835A /* correct.wav */; };
-		A833C64C1D5B2BAC0038835A /* kick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C63C1D5B2BAC0038835A /* kick.mp3 */; };
-		A833C64D1D5B2BAC0038835A /* Kiss The Rain-Yiruma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C63D1D5B2BAC0038835A /* Kiss The Rain-Yiruma.mp3 */; };
-		A833C64E1D5B2BAC0038835A /* MyWay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C63E1D5B2BAC0038835A /* MyWay.mp3 */; };
-		A833C64F1D5B2BAC0038835A /* pcm测试.pcm in Resources */ = {isa = PBXBuildFile; fileRef = A833C63F1D5B2BAC0038835A /* pcm测试.pcm */; };
-		A833C6501D5B2BAC0038835A /* recordPro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6401D5B2BAC0038835A /* recordPro.mp3 */; };
-		A833C6511D5B2BAC0038835A /* Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6411D5B2BAC0038835A /* Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3 */; };
-		A833C6521D5B2BAC0038835A /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6421D5B2BAC0038835A /* test.mp3 */; };
-		A833C6531D5B2BAC0038835A /* tip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6431D5B2BAC0038835A /* tip.mp3 */; };
-		A833C6541D5B2BAC0038835A /* tweet_sent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6441D5B2BAC0038835A /* tweet_sent.mp3 */; };
-		A833C6551D5B2BAC0038835A /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = A833C6451D5B2BAC0038835A /* wrong.wav */; };
-		A833C6561D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6461D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 */; };
 		A8B615B81D7584FE00F59B12 /* AudioUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B615B71D7584FE00F59B12 /* AudioUnitViewController.m */; };
 		A8DB4F181D8023EB001EC97E /* listen.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8DB4F171D8023EB001EC97E /* listen.wav */; };
 		A8DB4F251D8029F0001EC97E /* ExtAudioFileMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB4F241D8029F0001EC97E /* ExtAudioFileMixer.m */; };
 		A8DB4F2B1D8173A6001EC97E /* 1473330093.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8DB4F2A1D8173A6001EC97E /* 1473330093.wav */; };
+		A8EDC4061D83A42000D11B37 /* MyWay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8EDC4051D83A42000D11B37 /* MyWay.mp3 */; };
+		A8EDC4091D83A43000D11B37 /* Easy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8EDC4081D83A43000D11B37 /* Easy.mp3 */; };
+		A8EDC40C1D83A46300D11B37 /* AudioComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EDC40B1D83A46300D11B37 /* AudioComposeController.m */; };
 		A8EF0DB31D7AD13A00C55D48 /* listen.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8EF0DB21D7ACD2800C55D48 /* listen.caf */; };
 /* End PBXBuildFile section */
 
@@ -151,28 +138,17 @@
 		A833C6261D5B1F070038835A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A833C6331D5B23420038835A /* CustomAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAudioViewController.h; sourceTree = "<group>"; };
 		A833C6341D5B23420038835A /* CustomAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAudioViewController.m; sourceTree = "<group>"; };
-		A833C6371D5B2BAC0038835A /* 灿烂过.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "灿烂过.m4a"; sourceTree = "<group>"; };
-		A833C6381D5B2BAC0038835A /* 菊次郎的夏天-K.Williams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "菊次郎的夏天-K.Williams.mp3"; sourceTree = "<group>"; };
-		A833C6391D5B2BAC0038835A /* bubble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubble.mp3; sourceTree = "<group>"; };
-		A833C63A1D5B2BAC0038835A /* comical boys-虹音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "comical boys-虹音.mp3"; sourceTree = "<group>"; };
-		A833C63B1D5B2BAC0038835A /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
-		A833C63C1D5B2BAC0038835A /* kick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kick.mp3; sourceTree = "<group>"; };
-		A833C63D1D5B2BAC0038835A /* Kiss The Rain-Yiruma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kiss The Rain-Yiruma.mp3"; sourceTree = "<group>"; };
-		A833C63E1D5B2BAC0038835A /* MyWay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MyWay.mp3; sourceTree = "<group>"; };
-		A833C63F1D5B2BAC0038835A /* pcm测试.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pcm测试.pcm"; sourceTree = "<group>"; };
-		A833C6401D5B2BAC0038835A /* recordPro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = recordPro.mp3; sourceTree = "<group>"; };
-		A833C6411D5B2BAC0038835A /* Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3"; sourceTree = "<group>"; };
-		A833C6421D5B2BAC0038835A /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
-		A833C6431D5B2BAC0038835A /* tip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tip.mp3; sourceTree = "<group>"; };
-		A833C6441D5B2BAC0038835A /* tweet_sent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tweet_sent.mp3; sourceTree = "<group>"; };
-		A833C6451D5B2BAC0038835A /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
-		A833C6461D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ゆるやかな時間-虹音.mp3"; sourceTree = "<group>"; };
 		A8B615B61D7584FD00F59B12 /* AudioUnitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitViewController.h; sourceTree = "<group>"; };
 		A8B615B71D7584FE00F59B12 /* AudioUnitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUnitViewController.m; sourceTree = "<group>"; };
 		A8DB4F171D8023EB001EC97E /* listen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = listen.wav; sourceTree = "<group>"; };
 		A8DB4F231D8029F0001EC97E /* ExtAudioFileMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioFileMixer.h; sourceTree = "<group>"; };
 		A8DB4F241D8029F0001EC97E /* ExtAudioFileMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioFileMixer.m; sourceTree = "<group>"; };
 		A8DB4F2A1D8173A6001EC97E /* 1473330093.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1473330093.wav; sourceTree = "<group>"; };
+		A8EDC4051D83A42000D11B37 /* MyWay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MyWay.mp3; sourceTree = "<group>"; };
+		A8EDC4071D83A42700D11B37 /* Way.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Way.mp4; sourceTree = "<group>"; };
+		A8EDC4081D83A43000D11B37 /* Easy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Easy.mp3; sourceTree = "<group>"; };
+		A8EDC40A1D83A46300D11B37 /* AudioComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioComposeController.h; sourceTree = "<group>"; };
+		A8EDC40B1D83A46300D11B37 /* AudioComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioComposeController.m; sourceTree = "<group>"; };
 		A8EF0DB21D7ACD2800C55D48 /* listen.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = listen.caf; sourceTree = "<group>"; };
 		CC98543625F1FE91141ABF00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -279,6 +255,9 @@
 		A833C5FE1D5B1F070038835A /* FEAudio */ = {
 			isa = PBXGroup;
 			children = (
+				A8EDC4081D83A43000D11B37 /* Easy.mp3 */,
+				A8EDC4071D83A42700D11B37 /* Way.mp4 */,
+				A8EDC4051D83A42000D11B37 /* MyWay.mp3 */,
 				A8DB4F2A1D8173A6001EC97E /* 1473330093.wav */,
 				A8DB4F221D8029D9001EC97E /* Common */,
 				A8DB4F171D8023EB001EC97E /* listen.wav */,
@@ -304,6 +283,8 @@
 				A80172B61D768C4900E532F5 /* AudioTestViewController.m */,
 				A80172B81D768E5000E532F5 /* InMemoryAudioFile.h */,
 				A80172B91D768E5000E532F5 /* InMemoryAudioFile.m */,
+				A8EDC40A1D83A46300D11B37 /* AudioComposeController.h */,
+				A8EDC40B1D83A46300D11B37 /* AudioComposeController.m */,
 			);
 			path = FEAudio;
 			sourceTree = "<group>";
@@ -351,22 +332,6 @@
 				A80172BB1D76C57600E532F5 /* record.mp3 */,
 				A830C4101D71433900A69B58 /* drum.wav */,
 				A80172BD1D76E2CB00E532F5 /* audio.caf */,
-				A833C6371D5B2BAC0038835A /* 灿烂过.m4a */,
-				A833C6381D5B2BAC0038835A /* 菊次郎的夏天-K.Williams.mp3 */,
-				A833C6391D5B2BAC0038835A /* bubble.mp3 */,
-				A833C63A1D5B2BAC0038835A /* comical boys-虹音.mp3 */,
-				A833C63B1D5B2BAC0038835A /* correct.wav */,
-				A833C63C1D5B2BAC0038835A /* kick.mp3 */,
-				A833C63D1D5B2BAC0038835A /* Kiss The Rain-Yiruma.mp3 */,
-				A833C63E1D5B2BAC0038835A /* MyWay.mp3 */,
-				A833C63F1D5B2BAC0038835A /* pcm测试.pcm */,
-				A833C6401D5B2BAC0038835A /* recordPro.mp3 */,
-				A833C6411D5B2BAC0038835A /* Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3 */,
-				A833C6421D5B2BAC0038835A /* test.mp3 */,
-				A833C6431D5B2BAC0038835A /* tip.mp3 */,
-				A833C6441D5B2BAC0038835A /* tweet_sent.mp3 */,
-				A833C6451D5B2BAC0038835A /* wrong.wav */,
-				A833C6461D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -499,30 +464,16 @@
 				A80172C01D76E5D000E532F5 /* audio.caf in Resources */,
 				A80172C21D76EFC700E532F5 /* 1472640961.wav in Resources */,
 				A833C60F1D5B1F070038835A /* LaunchScreen.storyboard in Resources */,
-				A833C64B1D5B2BAC0038835A /* correct.wav in Resources */,
 				A8DB4F2B1D8173A6001EC97E /* 1473330093.wav in Resources */,
-				A833C6531D5B2BAC0038835A /* tip.mp3 in Resources */,
-				A833C64C1D5B2BAC0038835A /* kick.mp3 in Resources */,
-				A833C6551D5B2BAC0038835A /* wrong.wav in Resources */,
-				A833C64A1D5B2BAC0038835A /* comical boys-虹音.mp3 in Resources */,
-				A833C6561D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 in Resources */,
-				A833C6511D5B2BAC0038835A /* Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3 in Resources */,
 				A8DB4F181D8023EB001EC97E /* listen.wav in Resources */,
 				A830C4111D71433900A69B58 /* drum.wav in Resources */,
 				A830C4041D71235400A69B58 /* Info.plist in Resources */,
 				A80172BC1D76C57600E532F5 /* record.mp3 in Resources */,
-				A833C6541D5B2BAC0038835A /* tweet_sent.mp3 in Resources */,
-				A833C6501D5B2BAC0038835A /* recordPro.mp3 in Resources */,
+				A8EDC4091D83A43000D11B37 /* Easy.mp3 in Resources */,
+				A8EDC4061D83A42000D11B37 /* MyWay.mp3 in Resources */,
 				A833C60C1D5B1F070038835A /* Assets.xcassets in Resources */,
-				A833C6491D5B2BAC0038835A /* bubble.mp3 in Resources */,
 				A833C60A1D5B1F070038835A /* Main.storyboard in Resources */,
 				A80FA71D1D7873A0006796DC /* test.wav in Resources */,
-				A833C64E1D5B2BAC0038835A /* MyWay.mp3 in Resources */,
-				A833C64D1D5B2BAC0038835A /* Kiss The Rain-Yiruma.mp3 in Resources */,
-				A833C6521D5B2BAC0038835A /* test.mp3 in Resources */,
-				A833C6471D5B2BAC0038835A /* 灿烂过.m4a in Resources */,
-				A833C6481D5B2BAC0038835A /* 菊次郎的夏天-K.Williams.mp3 in Resources */,
-				A833C64F1D5B2BAC0038835A /* pcm测试.pcm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +549,7 @@
 				A80172BA1D768E5000E532F5 /* InMemoryAudioFile.m in Sources */,
 				A830C3FB1D71235400A69B58 /* EZAudioFloatData.m in Sources */,
 				A830C3F91D71235400A69B58 /* EZAudioFile.m in Sources */,
+				A8EDC40C1D83A46300D11B37 /* AudioComposeController.m in Sources */,
 				A830C3FD1D71235400A69B58 /* EZAudioPlot.m in Sources */,
 				A8DB4F251D8029F0001EC97E /* ExtAudioFileMixer.m in Sources */,
 				A830C3FE1D71235400A69B58 /* EZAudioPlotGL.m in Sources */,

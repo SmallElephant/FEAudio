@@ -297,6 +297,77 @@
             </objects>
             <point key="canvasLocation" x="714.5" y="1253.5"/>
         </scene>
+        <!--Audio Compose Controller-->
+        <scene sceneID="Cyd-iW-Bka">
+            <objects>
+                <viewController storyboardIdentifier="AudioComposeController" id="DRf-0x-b4A" customClass="AudioComposeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qsi-md-WOI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ts4-Dr-U6S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Pm-Bs-2A3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrS-J1-EQM">
+                                <rect key="frame" x="50" y="100" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5mV-dg-WGs"/>
+                                    <constraint firstAttribute="width" constant="80" id="ua7-UJ-G2J"/>
+                                </constraints>
+                                <state key="normal" title="音频合并">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="composeAction:" destination="DRf-0x-b4A" eventType="touchUpInside" id="Bgn-KB-wP0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QS1-va-RAw">
+                                <rect key="frame" x="155" y="100" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7YQ-he-vfc"/>
+                                    <constraint firstAttribute="width" constant="80" id="JR8-ph-bB6"/>
+                                </constraints>
+                                <state key="normal" title="音视频合并">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="vedioConposition:" destination="DRf-0x-b4A" eventType="touchUpInside" id="8wn-3u-5Zk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dS-jL-YsE">
+                                <rect key="frame" x="260" y="100" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.71372549019999998" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Jko-lx-A8o"/>
+                                    <constraint firstAttribute="height" constant="40" id="zWd-st-fHu"/>
+                                </constraints>
+                                <state key="normal" title="剪切">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cropAction:" destination="DRf-0x-b4A" eventType="touchUpInside" id="VD8-57-HLf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QS1-va-RAw" firstAttribute="top" secondItem="3Pm-Bs-2A3" secondAttribute="top" constant="100" id="2IQ-gm-VDf"/>
+                            <constraint firstItem="QS1-va-RAw" firstAttribute="leading" secondItem="VrS-J1-EQM" secondAttribute="trailing" constant="25" id="7Zb-0M-y0F"/>
+                            <constraint firstItem="VrS-J1-EQM" firstAttribute="top" secondItem="qsi-md-WOI" secondAttribute="bottom" constant="80" id="Iiu-dY-OFK"/>
+                            <constraint firstItem="9dS-jL-YsE" firstAttribute="leading" secondItem="QS1-va-RAw" secondAttribute="trailing" constant="25" id="V69-t1-lMd"/>
+                            <constraint firstItem="9dS-jL-YsE" firstAttribute="top" secondItem="3Pm-Bs-2A3" secondAttribute="top" constant="100" id="eKW-VQ-wWG"/>
+                            <constraint firstItem="VrS-J1-EQM" firstAttribute="leading" secondItem="3Pm-Bs-2A3" secondAttribute="leading" constant="50" id="nfQ-Go-zgj"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3At-ck-L9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="689" y="1981"/>
+        </scene>
         <!--Audio Test View Controller-->
         <scene sceneID="xCJ-KB-RlW">
             <objects>

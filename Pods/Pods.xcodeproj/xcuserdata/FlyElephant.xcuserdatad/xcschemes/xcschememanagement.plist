@@ -9,17 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>TheAmazingAudioEngine.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>libwebp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>43FE871D4590DE54D05DE127CD6BBA2D</key>
+		<key>088563CD1C7FACA1F6CA70C816A59C82</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D4550F2A1ABF36C89AEFFBCC9A953CA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5BE976E753D65A7B5299FA824C8950ED</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>631A8663FF90134931B019FA8C197641</key>
+		<key>1B2BCA5D9B855AAB21C9EE3F8D3524F0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
