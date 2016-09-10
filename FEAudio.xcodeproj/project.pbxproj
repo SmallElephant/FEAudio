@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2A00497D2F7466CAB687A619 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC98543625F1FE91141ABF00 /* libPods.a */; };
+		A80172B71D768C4900E532F5 /* AudioTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80172B61D768C4900E532F5 /* AudioTestViewController.m */; };
+		A80172BA1D768E5000E532F5 /* InMemoryAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A80172B91D768E5000E532F5 /* InMemoryAudioFile.m */; };
+		A80172BC1D76C57600E532F5 /* record.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A80172BB1D76C57600E532F5 /* record.mp3 */; };
+		A80172BF1D76E5D000E532F5 /* test.caf in Resources */ = {isa = PBXBuildFile; fileRef = A80172BE1D76E57A00E532F5 /* test.caf */; };
+		A80172C01D76E5D000E532F5 /* audio.caf in Resources */ = {isa = PBXBuildFile; fileRef = A80172BD1D76E2CB00E532F5 /* audio.caf */; };
+		A80172C21D76EFC700E532F5 /* 1472640961.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80172C11D76EFC700E532F5 /* 1472640961.wav */; };
+		A80FA71D1D7873A0006796DC /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80FA71C1D7873A0006796DC /* test.wav */; };
 		A830C3F51D71235400A69B58 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = A830C3D31D71235400A69B58 /* EZAudio.m */; };
 		A830C3F61D71235400A69B58 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A830C3D51D71235400A69B58 /* EZAudioDevice.m */; };
 		A830C3F71D71235400A69B58 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A830C3D71D71235400A69B58 /* EZAudioDisplayLink.m */; };
@@ -52,6 +59,11 @@
 		A833C6541D5B2BAC0038835A /* tweet_sent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6441D5B2BAC0038835A /* tweet_sent.mp3 */; };
 		A833C6551D5B2BAC0038835A /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = A833C6451D5B2BAC0038835A /* wrong.wav */; };
 		A833C6561D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A833C6461D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 */; };
+		A8B615B81D7584FE00F59B12 /* AudioUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B615B71D7584FE00F59B12 /* AudioUnitViewController.m */; };
+		A8DB4F181D8023EB001EC97E /* listen.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8DB4F171D8023EB001EC97E /* listen.wav */; };
+		A8DB4F251D8029F0001EC97E /* ExtAudioFileMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DB4F241D8029F0001EC97E /* ExtAudioFileMixer.m */; };
+		A8DB4F2B1D8173A6001EC97E /* 1473330093.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8DB4F2A1D8173A6001EC97E /* 1473330093.wav */; };
+		A8EF0DB31D7AD13A00C55D48 /* listen.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8EF0DB21D7ACD2800C55D48 /* listen.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +86,15 @@
 /* Begin PBXFileReference section */
 		22C19E423B4D7303FA2F23E2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		298067DA6544F70879AF2B5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A80172B51D768C4900E532F5 /* AudioTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTestViewController.h; sourceTree = "<group>"; };
+		A80172B61D768C4900E532F5 /* AudioTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTestViewController.m; sourceTree = "<group>"; };
+		A80172B81D768E5000E532F5 /* InMemoryAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMemoryAudioFile.h; sourceTree = "<group>"; };
+		A80172B91D768E5000E532F5 /* InMemoryAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMemoryAudioFile.m; sourceTree = "<group>"; };
+		A80172BB1D76C57600E532F5 /* record.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = record.mp3; sourceTree = "<group>"; };
+		A80172BD1D76E2CB00E532F5 /* audio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio.caf; sourceTree = "<group>"; };
+		A80172BE1D76E57A00E532F5 /* test.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.caf; sourceTree = "<group>"; };
+		A80172C11D76EFC700E532F5 /* 1472640961.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1472640961.wav; sourceTree = "<group>"; };
+		A80FA71C1D7873A0006796DC /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
 		A830C3D21D71235400A69B58 /* EZAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudio.h; sourceTree = "<group>"; };
 		A830C3D31D71235400A69B58 /* EZAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudio.m; sourceTree = "<group>"; };
 		A830C3D41D71235400A69B58 /* EZAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDevice.h; sourceTree = "<group>"; };
@@ -146,6 +167,13 @@
 		A833C6441D5B2BAC0038835A /* tweet_sent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tweet_sent.mp3; sourceTree = "<group>"; };
 		A833C6451D5B2BAC0038835A /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
 		A833C6461D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ゆるやかな時間-虹音.mp3"; sourceTree = "<group>"; };
+		A8B615B61D7584FD00F59B12 /* AudioUnitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitViewController.h; sourceTree = "<group>"; };
+		A8B615B71D7584FE00F59B12 /* AudioUnitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUnitViewController.m; sourceTree = "<group>"; };
+		A8DB4F171D8023EB001EC97E /* listen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = listen.wav; sourceTree = "<group>"; };
+		A8DB4F231D8029F0001EC97E /* ExtAudioFileMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioFileMixer.h; sourceTree = "<group>"; };
+		A8DB4F241D8029F0001EC97E /* ExtAudioFileMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioFileMixer.m; sourceTree = "<group>"; };
+		A8DB4F2A1D8173A6001EC97E /* 1473330093.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1473330093.wav; sourceTree = "<group>"; };
+		A8EF0DB21D7ACD2800C55D48 /* listen.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = listen.caf; sourceTree = "<group>"; };
 		CC98543625F1FE91141ABF00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -251,6 +279,11 @@
 		A833C5FE1D5B1F070038835A /* FEAudio */ = {
 			isa = PBXGroup;
 			children = (
+				A8DB4F2A1D8173A6001EC97E /* 1473330093.wav */,
+				A8DB4F221D8029D9001EC97E /* Common */,
+				A8DB4F171D8023EB001EC97E /* listen.wav */,
+				A8EF0DB21D7ACD2800C55D48 /* listen.caf */,
+				A80FA71C1D7873A0006796DC /* test.wav */,
 				A830C3D11D7122B400A69B58 /* Third */,
 				A833C6361D5B2B720038835A /* Resources */,
 				A833C6321D5B23280038835A /* AmazingAudio */,
@@ -265,6 +298,12 @@
 				A833C5FF1D5B1F070038835A /* Supporting Files */,
 				A830C4061D7126ED00A69B58 /* EZViewController.h */,
 				A830C4071D7126ED00A69B58 /* EZViewController.m */,
+				A8B615B61D7584FD00F59B12 /* AudioUnitViewController.h */,
+				A8B615B71D7584FE00F59B12 /* AudioUnitViewController.m */,
+				A80172B51D768C4900E532F5 /* AudioTestViewController.h */,
+				A80172B61D768C4900E532F5 /* AudioTestViewController.m */,
+				A80172B81D768E5000E532F5 /* InMemoryAudioFile.h */,
+				A80172B91D768E5000E532F5 /* InMemoryAudioFile.m */,
 			);
 			path = FEAudio;
 			sourceTree = "<group>";
@@ -307,7 +346,11 @@
 		A833C6361D5B2B720038835A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A80172C11D76EFC700E532F5 /* 1472640961.wav */,
+				A80172BE1D76E57A00E532F5 /* test.caf */,
+				A80172BB1D76C57600E532F5 /* record.mp3 */,
 				A830C4101D71433900A69B58 /* drum.wav */,
+				A80172BD1D76E2CB00E532F5 /* audio.caf */,
 				A833C6371D5B2BAC0038835A /* 灿烂过.m4a */,
 				A833C6381D5B2BAC0038835A /* 菊次郎的夏天-K.Williams.mp3 */,
 				A833C6391D5B2BAC0038835A /* bubble.mp3 */,
@@ -326,6 +369,15 @@
 				A833C6461D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8DB4F221D8029D9001EC97E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB4F231D8029F0001EC97E /* ExtAudioFileMixer.h */,
+				A8DB4F241D8029F0001EC97E /* ExtAudioFileMixer.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		FDF370D9EACB4B580410FE66 /* Frameworks */ = {
@@ -442,21 +494,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EF0DB31D7AD13A00C55D48 /* listen.caf in Resources */,
+				A80172BF1D76E5D000E532F5 /* test.caf in Resources */,
+				A80172C01D76E5D000E532F5 /* audio.caf in Resources */,
+				A80172C21D76EFC700E532F5 /* 1472640961.wav in Resources */,
 				A833C60F1D5B1F070038835A /* LaunchScreen.storyboard in Resources */,
 				A833C64B1D5B2BAC0038835A /* correct.wav in Resources */,
+				A8DB4F2B1D8173A6001EC97E /* 1473330093.wav in Resources */,
 				A833C6531D5B2BAC0038835A /* tip.mp3 in Resources */,
 				A833C64C1D5B2BAC0038835A /* kick.mp3 in Resources */,
 				A833C6551D5B2BAC0038835A /* wrong.wav in Resources */,
 				A833C64A1D5B2BAC0038835A /* comical boys-虹音.mp3 in Resources */,
 				A833C6561D5B2BAC0038835A /* ゆるやかな時間-虹音.mp3 in Resources */,
 				A833C6511D5B2BAC0038835A /* Suite No.1 In G- I. Prelude (Moderato)-Pablo Casals.mp3 in Resources */,
+				A8DB4F181D8023EB001EC97E /* listen.wav in Resources */,
 				A830C4111D71433900A69B58 /* drum.wav in Resources */,
 				A830C4041D71235400A69B58 /* Info.plist in Resources */,
+				A80172BC1D76C57600E532F5 /* record.mp3 in Resources */,
 				A833C6541D5B2BAC0038835A /* tweet_sent.mp3 in Resources */,
 				A833C6501D5B2BAC0038835A /* recordPro.mp3 in Resources */,
 				A833C60C1D5B1F070038835A /* Assets.xcassets in Resources */,
 				A833C6491D5B2BAC0038835A /* bubble.mp3 in Resources */,
 				A833C60A1D5B1F070038835A /* Main.storyboard in Resources */,
+				A80FA71D1D7873A0006796DC /* test.wav in Resources */,
 				A833C64E1D5B2BAC0038835A /* MyWay.mp3 in Resources */,
 				A833C64D1D5B2BAC0038835A /* Kiss The Rain-Yiruma.mp3 in Resources */,
 				A833C6521D5B2BAC0038835A /* test.mp3 in Resources */,
@@ -535,9 +595,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80172BA1D768E5000E532F5 /* InMemoryAudioFile.m in Sources */,
 				A830C3FB1D71235400A69B58 /* EZAudioFloatData.m in Sources */,
 				A830C3F91D71235400A69B58 /* EZAudioFile.m in Sources */,
 				A830C3FD1D71235400A69B58 /* EZAudioPlot.m in Sources */,
+				A8DB4F251D8029F0001EC97E /* ExtAudioFileMixer.m in Sources */,
 				A830C3FE1D71235400A69B58 /* EZAudioPlotGL.m in Sources */,
 				A830C3F81D71235400A69B58 /* EZAudioFFT.m in Sources */,
 				A833C6351D5B23420038835A /* CustomAudioViewController.m in Sources */,
@@ -547,11 +609,13 @@
 				A830C4021D71235400A69B58 /* EZPlot.m in Sources */,
 				A833C6041D5B1F070038835A /* AppDelegate.m in Sources */,
 				A830C4031D71235400A69B58 /* EZRecorder.m in Sources */,
+				A80172B71D768C4900E532F5 /* AudioTestViewController.m in Sources */,
 				A830C4081D7126ED00A69B58 /* EZViewController.m in Sources */,
 				A830C3F71D71235400A69B58 /* EZAudioDisplayLink.m in Sources */,
 				A830C3F61D71235400A69B58 /* EZAudioDevice.m in Sources */,
 				A830C3FC1D71235400A69B58 /* EZAudioPlayer.m in Sources */,
 				A830C4001D71235400A69B58 /* EZMicrophone.m in Sources */,
+				A8B615B81D7584FE00F59B12 /* AudioUnitViewController.m in Sources */,
 				A833C6011D5B1F070038835A /* main.m in Sources */,
 				A830C3F51D71235400A69B58 /* EZAudio.m in Sources */,
 				A830C4051D71235400A69B58 /* TPCircularBuffer.c in Sources */,

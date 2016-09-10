@@ -23,7 +23,7 @@
 
 @property (strong, nonatomic) EZAudioFile *audioFile;
 
-@property (nonatomic, strong) EZAudioPlayer *player;
+@property (strong, nonatomic) EZAudioPlayer *player;
 
 
 @end
@@ -65,7 +65,7 @@
 }
 
 - (IBAction)realTimeAction:(id)sender {
-    NSURL *fileUrl = [[NSBundle mainBundle] URLForResource:@"drum" withExtension:@"wav"];
+    NSURL *fileUrl = [[NSBundle mainBundle] URLForResource:@"1472722213" withExtension:@"wav"];
     self.audioFile = [EZAudioFile audioFileWithURL:fileUrl];
     
     
@@ -101,6 +101,7 @@
     self.audioFile = [EZAudioFile audioFileWithURL:fileUrl];
 
     self.audioPlot.plotType = EZPlotTypeBuffer;
+//    self.audioPlot.shouldFill = YES;
     self.audioPlot.shouldFill = YES;
     self.audioPlot.shouldMirror = YES;
     __weak typeof (self) weakSelf = self;
@@ -168,6 +169,27 @@
     
     self.player = [EZAudioPlayer audioPlayerWithDelegate:self];
     self.player.shouldLoop = YES;
+    
+    
+    CAShapeLayer *line = [CAShapeLayer layer];
+    
+    CGPoint fromPoint = CGPointMake(20, 330);
+    CGPoint toPoint   = CGPointMake(50, 360);
+    
+    UIBezierPath *linePath = [UIBezierPath bezierPath];
+    [linePath moveToPoint:fromPoint];
+    
+    [linePath addLineToPoint: toPoint];
+    
+    line.path = linePath.CGPath;
+    
+    line.fillColor = nil;
+    
+    line.opacity = 1.0;
+    
+    line.strokeColor = [UIColor redColor].CGColor;
+    
+    [self.view.layer addSublayer:line];
 }
 
 @end

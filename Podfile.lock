@@ -1,10 +1,44 @@
 PODS:
+  - libwebp (0.5.0):
+    - libwebp/core (= 0.5.0)
+    - libwebp/dec (= 0.5.0)
+    - libwebp/demux (= 0.5.0)
+    - libwebp/dsp (= 0.5.0)
+    - libwebp/enc (= 0.5.0)
+    - libwebp/mux (= 0.5.0)
+    - libwebp/utils (= 0.5.0)
+    - libwebp/webp (= 0.5.0)
+  - libwebp/core (0.5.0):
+    - libwebp/webp
+  - libwebp/dec (0.5.0):
+    - libwebp/core
+  - libwebp/demux (0.5.0):
+    - libwebp/core
+  - libwebp/dsp (0.5.0):
+    - libwebp/core
+  - libwebp/enc (0.5.0):
+    - libwebp/core
+  - libwebp/mux (0.5.0):
+    - libwebp/core
+  - libwebp/utils (0.5.0):
+    - libwebp/core
+  - libwebp/webp (0.5.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SDWebImage/WebP (3.7.6):
+    - libwebp
+    - SDWebImage/Core
   - TheAmazingAudioEngine (1.5.6)
 
 DEPENDENCIES:
+  - SDWebImage (~> 3.7.4)
+  - SDWebImage/WebP
   - TheAmazingAudioEngine (~> 1.5.6)
 
 SPEC CHECKSUMS:
+  libwebp: 68ba2001ba6806ee52837ebd77a551a0b6567e4e
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   TheAmazingAudioEngine: 0ed8c05486646373a48b22a341d31de42d1af2c3
 
 COCOAPODS: 0.39.0
